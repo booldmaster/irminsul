@@ -1,0 +1,32 @@
+properties:
+  file.name:
+    displayName: Nama Catatan
+  note.aliases:
+    displayName: Alias
+  note.tags:
+    displayName: Tagar
+  note.type:
+    displayName: Tipe Catatan
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasProperty("publish")
+    order:
+      - file.name
+      - aliases
+      - tags
+      - type
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: entity
+        direction: ASC
+      - property: location
+        direction: ASC
+    columnSize:
+      file.name: 304
+      note.aliases: 306
