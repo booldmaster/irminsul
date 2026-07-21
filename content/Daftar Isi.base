@@ -7,6 +7,8 @@ properties:
     displayName: Tagar
   note.type:
     displayName: Tipe Catatan
+  note.topic:
+    displayName: Topik
 views:
   - type: table
     name: Table
@@ -18,15 +20,18 @@ views:
       - aliases
       - tags
       - type
+      - topic
     sort:
+      - property: topic
+        direction: ASC
+      - property: type
+        direction: DESC
       - property: file.name
         direction: DESC
-      - property: tags
-        direction: ASC
       - property: entity
         direction: ASC
       - property: location
         direction: ASC
     columnSize:
       file.name: 304
-      note.aliases: 306
+      note.aliases: 190
