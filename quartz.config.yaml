@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: Irminsul.tree
+  pageTitleSuffix: " | Source of Knowledge"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -264,7 +264,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: default
+      theme: tokyo-night
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
