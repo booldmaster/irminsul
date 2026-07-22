@@ -275,9 +275,9 @@ plugins:
   - source: github:xoconoch/bg-varieties
     enabled: true
     options:
-      type: vector
+      type: perlin-noise
       zIndex: -2
-      opacity: 0.4
+      opacity: 0.7
       speedMultiplier: 1
       density: 50
       interactive: true
