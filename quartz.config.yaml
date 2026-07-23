@@ -190,11 +190,6 @@ plugins:
     layout:
       position: beforeBody
       priority: 30
-  - source: github:quartz-community/page-title
-    enabled: true
-    layout:
-      position: left
-      priority: 10
   - source: github:quartz-community/darkmode
     enabled: true
     layout:
@@ -286,6 +281,13 @@ plugins:
     order: 50
     layout:
       position: afterBody
+      priority: 10
+  - source: github:quartz-community/page-title
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: left
       priority: 10
 layout:
   groups:

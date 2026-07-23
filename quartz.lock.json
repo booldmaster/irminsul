@@ -202,8 +202,8 @@
     "page-title": {
       "source": "github:quartz-community/page-title",
       "resolved": "https://github.com/quartz-community/page-title.git",
-      "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
-      "installedAt": "2026-07-18T11:16:03.482Z"
+      "commit": "8e28edff067dcefc81ceda22d9a5b22efd2b0ece",
+      "installedAt": "2026-07-23T14:42:23.083Z"
     },
     "quartz-themes": {
       "source": {
