@@ -1,3 +1,66 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+//---------------------------------------------------------------------------------------------------- CleanCallout snippet //
+/*
+   Snippet: Table-Style Callouts (Bold White Version)
+   Style: Semi-Transparent Header + Extra Bold White Text + Colored Border
+*/
+
+/* --- THE MAIN BOX --- */
+.callout.callout {
+    --callout-padding: 0;
+    --callout-content-padding: 4px 10px;
+    --callout-title-padding: 3px 8px;
+
+    --header-opacity: 0.65;
+
+    background-color: transparent;
+    border: 2px solid rgb(var(--callout-color));
+    overflow: hidden;
+    width: fit-content;
+    min-width: 150px;
+    padding: 0;
+}
+
+/* --- THE HEADER (Title Bar) --- */
+.callout.callout .callout-title {
+    background-color: rgba(var(--callout-color), var(--header-opacity));
+    color: #ffffff;
+
+    /* Configurable EXTRA BOLD (Standard is 400, Bold is 700. We go 800/900) */
+    font-weight: 800;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+
+    padding: var(--callout-title-padding);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* --- ICONS --- */
+.callout.callout .callout-icon,
+.callout.callout .callout-icon .svg-icon {
+    --icon-color: #ffffff;
+    color: #ffffff;
+    fill: none;
+    stroke-width: 3px;
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.5));
+}
+
+/* --- THE BODY (Content) --- */
+.callout.callout .callout-content {
+    background-color: transparent;
+    padding: var(--callout-content-padding);
+}
+.callout.callout .callout-content> :is(p, ul, ol) {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.callout.callout .callout-content>*:last-child {
+    margin-bottom: 0;
+}
+
+.markdown-source-view.mod-cm6 .callout.callout {
+    background-color: transparent;
+}
+//---------------------------------------------------------------------------------------------------- End of CleanCallout //
