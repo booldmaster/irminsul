@@ -73,12 +73,6 @@ body a.internal.internal-link {
 
 //---------------------------------------------------------------------------------------------------- Obsidian Snippet Import //
 
-
-// Popover
-.popover {
-  border: solid var(--text-accent);
-}
-
 // Center img
 img,
 .markdown-source-view.mod-cm6 .cm-content .image-embed {
@@ -88,21 +82,5 @@ img,
 
 // Theme.css
 
-.theme-dark {
-    --background-primary: rgb(26, 35, 48); 
-    --background-secondary: rgb(18, 24, 33);
-    --bold-color: rgb(242,243,244);
-    --cpt-text: 156, 170, 186;
-}
-  
-body {
-    --text-highlight-bg-rgb: 6, 82, 91;
-    --text-highlight-bg: rgba(var(--text-highlight-bg-rgb), 1);
-}
-
-/* Text Highlight */
-.markdown-rendered mark {
-    color: var(--text-normal);
-}
 
 //---------------------------------------------------------------------------------------------------- End of Obsidian Snippet Import //
