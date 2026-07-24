@@ -110,13 +110,6 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
-    options:
-      fontOrigin: googleFonts
-      body: '"IBM Plex Sans", sans-serif'
-      header: '"JetBrains Mono", monospace'
-      code: '"JetBrains Mono", monospace'
-      h1: '"JetBrains Mono", monospace'
-      h2: '"JetBrains Mono", monospace'
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -267,13 +260,6 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: false
-    options:
-      theme: aura
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
@@ -281,6 +267,15 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source:
+      name: quartz-themes
+      repo: github:saberzero1/quartz-themes
+      subdir: plugin
+      ref: main
+    enabled: true
+    order: 50
+    options:
+      theme: aura
 layout:
   groups:
     toolbar:
