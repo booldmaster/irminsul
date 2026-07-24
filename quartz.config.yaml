@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: JetBrains Mono
+      body: IBM Plex Sans
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -157,6 +157,8 @@ plugins:
     layout:
       position: left
       priority: 50
+    options:
+      title: Roots
   - source: github:quartz-community/graph
     enabled: true
     layout:
@@ -190,6 +192,11 @@ plugins:
     layout:
       position: beforeBody
       priority: 30
+  - source: github:quartz-community/page-title
+    enabled: true
+    layout:
+      position: left
+      priority: 10
   - source: github:quartz-community/darkmode
     enabled: true
     layout:
@@ -253,13 +260,6 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: true
-    options:
-      theme: aura
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
@@ -267,28 +267,15 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: github:xoconoch/bg-varieties
+  - source:
+      name: quartz-themes
+      repo: github:saberzero1/quartz-themes
+      subdir: plugin
+      ref: main
     enabled: true
+    order: 50
     options:
-      type: perlin-noise
-      zIndex: -2
-      opacity: 0.7
-      speedMultiplier: 1
-      density: 50
-      interactive: true
-      theme: auto
-      palette: cosmic
-    order: 50
-    layout:
-      position: afterBody
-      priority: 10
-  - source: github:quartz-community/page-title
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: left
-      priority: 10
+      theme: aura
 layout:
   groups:
     toolbar:
