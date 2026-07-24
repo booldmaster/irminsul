@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: JetBrains Mono
+      body: IBM Plex Sans
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -110,6 +110,13 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      body: '"IBM Plex Sans", sans-serif'
+      header: '"JetBrains Mono", monospace'
+      code: '"JetBrains Mono", monospace'
+      h1: '"JetBrains Mono", monospace'
+      h2: '"JetBrains Mono", monospace'
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -257,7 +264,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: aura
   - source: github:quartz-community/obsidian-plugin-excalidraw
@@ -267,21 +274,6 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: github:xoconoch/bg-varieties
-    enabled: true
-    options:
-      type: perlin-noise
-      zIndex: -2
-      opacity: 0.7
-      speedMultiplier: 1
-      density: 50
-      interactive: true
-      theme: auto
-      palette: cosmic
-    order: 50
-    layout:
-      position: afterBody
-      priority: 10
   - source: github:quartz-community/page-title
     enabled: true
     options: {}
