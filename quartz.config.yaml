@@ -31,15 +31,15 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
+        light: "#1a2330"
+        lightgray: "#5183a9"
+        gray: "#048649"
+        darkgray: "#9caaba"
+        dark: "#7070db"
         secondary: "#7b97aa"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        highlight: rgba(156, 170, 186, 0.15)
+        textHighlight: "#0fa0b3"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -164,6 +164,8 @@ plugins:
     layout:
       position: left
       priority: 50
+    options:
+      title: Roots
   - source: github:quartz-community/graph
     enabled: true
     layout:
@@ -197,6 +199,11 @@ plugins:
     layout:
       position: beforeBody
       priority: 30
+  - source: github:quartz-community/page-title
+    enabled: true
+    layout:
+      position: left
+      priority: 10
   - source: github:quartz-community/darkmode
     enabled: true
     layout:
@@ -274,13 +281,6 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: github:quartz-community/page-title
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: left
-      priority: 10
 layout:
   groups:
     toolbar:
