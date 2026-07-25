@@ -1,7 +1,4 @@
 ---
-type: artikel
-tags: []
-aliases: []
 publish: true
 unlisted: false
 ---
@@ -13,12 +10,8 @@ Satu hal yang menarik (menurut pendapat saya) dari gaya penceritaan Genshin adal
 
 > Itu ada lore nya kocak!!
 
-(*terlepas bahwa ini sebenarnya lebih seringh ke arah negatif. Tapi kita abaikan saja. Berdebat kusir tidak akan ada habisnya*)
+(_terlepas bahwa ini sebenarnya lebih seringh ke arah negatif. Tapi kita abaikan saja. Berdebat kusir tidak akan ada habisnya_)
 
-Di arah dengan iktikad yang lebih baik, referensi diri atau self-reference ini merupakan salah satu teknik [[Metanarasi sebagai plot device|storytelling]] yang kental dengan tujuan untuk menyampaikan kisah secara non-linear. 
+Di arah dengan iktikad yang lebih baik, referensi diri atau self-reference ini merupakan salah satu teknik [[Metanarasi sebagai plot device|storytelling]] yang kental dengan tujuan untuk menyampaikan kisah secara non-linear.
 
-Jika anda perhatikan, "kisah non-linear" juga merupakan gambaran lain untuk **sejarah manusia**. Ambil contoh 
-
-
-
-
+Jika anda perhatikan, "kisah non-linear" juga merupakan gambaran lain untuk **sejarah manusia**. Ambil contoh

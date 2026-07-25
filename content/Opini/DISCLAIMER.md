@@ -1,22 +1,20 @@
 ---
-type: opini
-tags: []
-aliases: []
 publish: true
 topic: "[[kata pengantar]]"
 unlisted: false
 ---
+
 ⚠️⚠️⚠️PENTING UNTUK DIBACA⚠️⚠️⚠️
 
 Yappingan bagian ini sangat (sangat) panjang, jadi bacalah hanya jika anda memiliki **waktu luang**.
 
-Satu hal yang menurut saya keren dan cukup membuka wawasan tentang "bagaimana cerita di genshin sebenarnya disusun?" adalah ia merefleksikan bagaimana **sejarah di dunia nyata terjadi**. 
+Satu hal yang menurut saya keren dan cukup membuka wawasan tentang "bagaimana cerita di genshin sebenarnya disusun?" adalah ia merefleksikan bagaimana **sejarah di dunia nyata terjadi**.
 
 ---
 
 Di dalam game, ada banyak sekali sumber-sumber lore yang **cacat**, tidak lengkap, tidak jelas, **kurang bisa diandalkan** dan lain sebagainya. Ini terjadi di setiap sudut, setiap region, setiap tempat. Sumber ini pun banyak bentuknya. Deskripsi **Artifact**, **Weapon**, **Dialog** NPC, **Buku-buku**, dan sejenisnya.
 
-Jika anda peduli dengan lore genshin, bahkan sebatas cuma baca ringkasan lore, anda sudah bertindak selayaknya **sejarawan di dunia nyata** bekerja. Secara sadar anda (dan para sejarawan) mengonsumsi seluruh narasi **cacat** tersebut dari berbagai sumber. 
+Jika anda peduli dengan lore genshin, bahkan sebatas cuma baca ringkasan lore, anda sudah bertindak selayaknya **sejarawan di dunia nyata** bekerja. Secara sadar anda (dan para sejarawan) mengonsumsi seluruh narasi **cacat** tersebut dari berbagai sumber.
 
 Kemudian narasi-narasi ini berkumpul serta bersatu, dan disuatu ruang diantaranya lah terdapat "kebenaran". Tidak ada satu sudut pandang yang **sungguh-sungguh** benar mutlak, inilah mengapa anda akan menemukan & membaca kejadian yang sama diceritakan berulang-ulang.
 
@@ -28,9 +26,8 @@ Kita berbagi opini, berpendapat, dan berbagi interpretasi dengan orang lain. Lal
 
 ---
 
-Kita semua memegang **pecahan kecil pengetahuan** yang masing-masing dari kita memiliki keahlian didalamnya. Dan hanya dengan **berkomunikasi** lah, pada umumnya, kita baru mampu membuat kesimpulan besar. 
+Kita semua memegang **pecahan kecil pengetahuan** yang masing-masing dari kita memiliki keahlian didalamnya. Dan hanya dengan **berkomunikasi** lah, pada umumnya, kita baru mampu membuat kesimpulan besar.
 
 # Singkatnya
+
 Saya sebagai narator tidak sempurna (tidak ada narator yang sempurna). Sehingga tidak ada salahnya "melihat pecahan pengetahuan orang lain". Yang terpenting, **jangan lupa untuk menarik kesimpulan sendiri** alih-alih mengadopsi pemikiran orang lain **tanpa berpikir kritis**.
-
-
