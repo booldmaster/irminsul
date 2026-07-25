@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-07-23T16:27:46.176+07:00
-modified: 2026-07-25T14:54:05.265+07:00
+modified: 2026-07-25T15:00:56.820+07:00
 ---
 
 This [[Styling References|page]] serves as a reference point to show variety and appearances of interface texts. Including but not limited to body text, **bold** or **strong** words, _italicized_ words even though they are not from the country _Italy_, or even ==highlighting== important stylings. While overcoming `codeblocks` ahead (get it? "rodeblocks"),
