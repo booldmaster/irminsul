@@ -4,6 +4,7 @@ tags: []
 aliases: []
 publish: true
 topic: "[[konsep dasar]]"
+unlisted: false
 ---
 ## Mengubah Game (mekanik) menjadi Story
 Pada dasarnya, seluruh game secara alami menciptakan "story" melalui gameplay.

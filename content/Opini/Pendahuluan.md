@@ -6,6 +6,7 @@ publish: true
 topic:
   - "[[konsep dasar]]"
   - "[[kata pengantar]]"
+unlisted: false
 ---
 ## Tentang Obsidian
 

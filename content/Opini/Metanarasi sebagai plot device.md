@@ -4,6 +4,7 @@ tags: []
 aliases: []
 publish: true
 topic: "[[konsep dasar]]"
+unlisted: false
 ---
 
 > [!quote] Fractal Philosophy

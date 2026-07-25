@@ -3,6 +3,7 @@ type: artikel
 tags: []
 aliases: []
 publish: true
+unlisted: false
 ---
 
 > [!quote] Conrad P. Kottak

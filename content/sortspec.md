@@ -5,4 +5,6 @@ sorting-spec: |
   Artikel Kecil
   template
   Bin
+unlisted: true
+publish: false
 ---

@@ -1,3 +1,7 @@
+---
+unlisted: true
+publish: false
+---
 <%*
 // --- CONSTANTS & CONFIG --- 
 const folderOpini = "Opini";
