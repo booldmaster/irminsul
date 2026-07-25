@@ -2,81 +2,173 @@
 
 // put your custom CSS here!
 
-//---------------------------------------------------------------------------------------------------- CleanCallout snippet //
 /*
-   Snippet: Table-Style Callouts (Bold White Version)
-   Style: Semi-Transparent Header + Extra Bold White Text + Colored Border
+TABLE OF CONTENTS (TOCS)
+1. Root Override
+2. Clean Callout
+3. Center Image
+4. Basic Formatting Overrides
+5. Background Drop Overrides
 */
 
-/* --- THE MAIN BOX --- */
-.callout.callout {
-    --callout-padding: 0;
-    --callout-content-padding: 4px 10px;
-    --callout-title-padding: 3px 8px;
+// ==================================================
+// template
+// ==================================================
 
+// ==================================================
+// 1. Root Override
+// ==================================================
 
-    --header-opacity: 0.65;
-
-    background-color: transparent;
-    border: 2px solid rgb(var(--callout-color));
-    overflow: hidden;
-    width: fit-content;
-    min-width: 150px;
-    padding: 0;
+html[saved-theme="dark"]
+body p {
+    color: #C7D1E0;
 }
 
-/* --- THE HEADER (Title Bar) --- */
-.callout.callout .callout-title {
-    background-color: rgba(var(--callout-color), var(--header-opacity));
-    color: #ffffff;
+:root {
+    --font-interface: var(--bodyFont);
+    
+    /*--light: "#1a2330"
+    --lightgray: "#5183a9"
+    --gray: "#048649"
+    --darkgray: "#9caaba"
+    --dark: "#7070db"
+    --secondary: "#7b97aa"
+    --tertiary: "#84a59d"
+    --highlight: rgba(156, 170, 186, 0.15)
+    --textHighlight: "#0fa0b3" 
+    */
 
-    /* Configurable EXTRA BOLD (Standard is 400, Bold is 700. We go 800/900) */
+    --background-primary: #1a2330; // main conent
+    --background-secondary: #151d28; // sidebar
+
+    --inline-title-color: #8AEA92;
+    --bold-modifier: 125;
+}
+
+
+// ==================================================
+// 2. Clean Callout
+// ==================================================
+
+.callout {
+  // 1. Reset base styles
+  --callout-padding: 0;
+  --callout-content-padding: 4px 10px;
+  --callout-title-padding: 3px 8px;
+  --header-opacity: 0.65;
+
+  background-color: transparent;
+  border: 2px solid var(--color); // Quartz uses --color for the callout type color
+  overflow: hidden;
+  width: fit-content;
+  min-width: 150px;
+  padding: 0;
+  margin-bottom: 1rem;
+
+  // 2. THE HEADER (Title Bar)
+  & > .callout-title {
+    background-color: color-mix(in srgb, var(--color), transparent 35%);
+    color: #ffffff;
     font-weight: 800;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-
     padding: var(--callout-title-padding);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
+    
+    .callout-title-inner {
+      color: #ffffff;
+    }
+  }
 
-/* --- ICONS --- */
-.callout.callout .callout-icon,
-.callout.callout .callout-icon .svg-icon {
-    --icon-color: #ffffff;
-    color: #ffffff;
-    fill: none;
-    stroke-width: 3px;
+  .callout.callout .callout-icon {
+    color: #ffffff;    
     filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.5));
-}
+    
+    svg {
+      fill: none;
+      stroke: #ffffff;
+      stroke-width: 3px;
+    }
+  }
 
-/* --- THE BODY (Content) --- */
-.callout.callout .callout-content {
+  & > .callout-content {
     background-color: transparent;
     padding: var(--callout-content-padding);
-}
-.callout.callout .callout-content> :is(p, ul, ol) {
-    margin-top: 0;
-    margin-bottom: 4px;
-}
-.callout.callout .callout-content>*:last-child {
-    margin-bottom: 0;
+    color: var(--dark); 
+
+    & > :is(p, ul, ol) {
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+
+    & > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .callout-fold {
+    color: #ffffff;
+  }
 }
 
-.markdown-source-view.mod-cm6 .callout.callout {
-    background-color: transparent;
-}
-//---------------------------------------------------------------------------------------------------- End of CleanCallout //
+// ==================================================
+// 3. Center Image
+// ==================================================
 
-//---------------------------------------------------------------------------------------------------- Value Configuration //
+article img, 
+.popover img {
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+// ==================================================
+// 4. Basic Formatting Overrides
+// ==================================================
+
+// WikiLinks
 body a.internal.internal-link {
     background-color: transparent;
+    color: yellow;
 }
-//---------------------------------------------------------------------------------------------------- End of Value Configuration //
 
-//---------------------------------------------------------------------------------------------------- Obsidian Snippet Import //
-
-// Center img
-img,
-.markdown-source-view.mod-cm6 .cm-content .image-embed {
-  display: block;
-  margin-inline: auto !important;
+// Highlights
+.text-highlight {
+    background-color: #0d4f59;
+    color: #8eccd7;
+    padding: 0 2px;
+    border-radius: 3px;
 }
+
+// Codeblocks
+code {
+    background-color: #313335;
+    color: white;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+// Headings
+h1 {
+    color: #86cbb0;
+}
+h2, h3, h4, h5 {
+    color: #86b7cb;
+}
+
+// Bold - Strong
+strong {
+    color: white;
+
+}
+
+// Italic
+em {
+    color: #F4D5AF;
+}
+
+// ==================================================
+// 5. Background Drop Overrides
+// ==================================================
+
+
