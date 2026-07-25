@@ -280,6 +280,7 @@ plugins:
     order: 50
     options:
       theme: aura
+      mode: dark
 layout:
   groups:
     toolbar:
