@@ -1,0 +1,69 @@
+properties:
+  file.name:
+    displayName: Nama Catatan
+  note.aliases:
+    displayName: Alias
+  note.tags:
+    displayName: Tagar
+  note.type:
+    displayName: Tipe Catatan
+  note.topic:
+    displayName: Topik
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasProperty("publish")
+    order:
+      - file.name
+      - aliases
+      - tags
+      - type
+      - topic
+      - publish
+    sort:
+      - property: topic
+        direction: ASC
+      - property: type
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: entity
+        direction: ASC
+      - property: location
+        direction: ASC
+    columnSize:
+      file.name: 304
+      note.aliases: 190
+  - type: table
+    name: All File
+    filters:
+      and:
+        - '!file.inFolder("Attachment")'
+    order:
+      - file.name
+      - unlisted
+      - publish
+  - type: table
+    name: Public View
+    filters:
+      and:
+        - publish == true
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - topic
+      - tags
+      - aliases
+    sort:
+      - property: aliases
+        direction: ASC
+    columnSize:
+      note.type: 137
+      note.topic: 342
+      note.tags: 148
+      note.aliases: 100
