@@ -21,6 +21,7 @@ views:
       - tags
       - type
       - topic
+      - publish
     sort:
       - property: topic
         direction: ASC
@@ -35,3 +36,34 @@ views:
     columnSize:
       file.name: 304
       note.aliases: 190
+  - type: table
+    name: All File
+    filters:
+      and:
+        - '!file.inFolder("Attachment")'
+    order:
+      - file.name
+      - unlisted
+      - publish
+  - type: table
+    name: Public View
+    filters:
+      and:
+        - publish == true
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - topic
+      - tags
+      - aliases
+    sort:
+      - property: aliases
+        direction: ASC
+    columnSize:
+      note.type: 137
+      note.topic: 342
+      note.tags: 148
+      note.aliases: 100
