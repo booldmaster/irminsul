@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.inFolder("Attachment")'
+    order:
+      - file.name
+      - topic
+      - type
+      - figLang
+    sort:
+      - property: majas
+        direction: ASC
+      - property: topic
+        direction: DESC
+    columnSize:
+      note.type: 132
+      note.topic: 221
