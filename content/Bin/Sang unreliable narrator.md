@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-07-30
-modified: 2026-09-17T11:12:16.337Z
+modified: 2026-09-18T09:43:49.681Z
 ---
 
 <sup>TL-Note: Unreliable narrator = Narator yang tidak dapat diandalkan</sup>
@@ -35,7 +35,9 @@ Tentu saja tidak. Secara garis besar, dalam menafsirkan sebuah cerita, akan ada 
 Seorang narator (Dainsleif misalnya) bisa saja **dimaksudkan oleh penulis** (dalam hal ini, dev writer) murni sebagai narator yang "benar apa adanya". Namun tindakannya didalam penceritaan menunjukkan pengetahuan yang berlawanan dengan konsep-konsep yang telah diketahui pembaca (player) sebelumnya. Jika kemudian **pembaca memaknai** Dainsleif "tidak berkata jujur", maka istilah Unreliable Narrator sudah cukup tepat untuk disematkan pada Dain.
 
 Dalam menghadapi dilema yang demikian, maka Peter J. Rabinowitz pernah menyebutkan bahwa,
-"Narator yang tidak reliabel (Unreliable Narrator) bukanlah semata-mata Narator yang 'tidak mengatakan kebenaran'. Semua narator fiktif pada dasarnya tidak memberitahukan kebenaran. Melainkan, Unreliable Narrator adalah mereka yang berbohong, menyembunyikan informasi, atau salah menilai pada audiens-narasi itu sendiri. Pernyataan mereka tidak benar, bukan didasarkan pada standar dunia nyata, tetapi tidak benar berdasarkan audiens mereka pada kisah itu sendiri"
+
+> "Narator yang tidak reliabel (Unreliable Narrator) bukanlah semata-mata Narator yang 'tidak mengatakan kebenaran'. Semua narator fiktif pada dasarnya tidak memberitahuka kebenaran. Melainkan, Unreliable Narrator adalah mereka yang berbohong, menyembunyikan informasi, atau salah menilai pada audiens-narasi itu sendiri. Pernyataan mereka tidak benar, bukan didasarkan pada standar dunia nyata, tetapi tidak benar berdasarkan audiens mereka pada kisah itu sendiri"
+
 Sehingga, dalam mencerna sebuah penceritaan, kejadian-kejadian/peristiwa yang terjadi bijaknya dicerna dengan mempertimbangkan bahwa suatu hal bisa dianggap "benar" dan "bohong" secara bersamaan Termasuk dalam hal ini, dialog karakter.
 
 ---
